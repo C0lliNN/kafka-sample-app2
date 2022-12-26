@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "namespace": "com.raphaelcollin.kafka",
+  "name": "Order",
+  "fields": [
+    {"name": "userId", "type": "string"},
+    {"name": "nbOfItems", "type": "int"},
+    {"name": "totalAmount", "type": "float"}
+  ]
+}
